@@ -82,13 +82,9 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac luci-app-timewo
 UPDATE_PACKAGE "luci-app-airoha-npu" "bingoguo93/luci-app-airoha-npu" "main"
 UPDATE_PACKAGE "luci-app-lucky" "sirpdboy/luci-app-lucky" "main"
 UPDATE_PACKAGE "luci-app-tailscale-community" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale-community"
-UPDATE_PACKAGE "istore" "linkease/istore" "main" "pkg" "istore luci-app-store"
-UPDATE_PACKAGE "accesscontrol" "openwrt/luci-app-accesscontrol" "master" "" "luci-app-accesscontrol accesscontrol"
-# 统一共享 unishare
-UPDATE_PACKAGE "unishare" "sirpdboy/luci-app-unishare" "main" "" "luci-app-unishare unishare"
-# 带宽监控 wrtbwmon
-UPDATE_PACKAGE "wrtbwmon" "sirpdboy/luci-app-wrtbwmon" "main" "" "luci-app-wrtbwmon wrtbwmon"
-#更新软件包版本
+UPDATE_PACKAGE "luci-app-timecontrol" "sirpdboy/luci-app-timecontrol" "main" "" "luci-app-timecontrol"
+UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" 
+
 UPDATE_VERSION() {
 	local PKG_NAME=$1
 	local PKG_MARK=${2:-false}
