@@ -82,7 +82,8 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac luci-app-timewo
 UPDATE_PACKAGE "luci-app-airoha-npu" "bingoguo93/luci-app-airoha-npu" "main"
 UPDATE_PACKAGE "luci-app-lucky" "sirpdboy/luci-app-lucky" "main"
 UPDATE_PACKAGE "luci-app-tailscale-community" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale-community"
-
+UPDATE_PACKAGE "istore" "linkease/istore" "main" "pkg" "istore luci-app-store"
+UPDATE_PACKAGE "accesscontrol" "openwrt/luci-app-accesscontrol" "master" "" "luci-app-accesscontrol accesscontrol"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
