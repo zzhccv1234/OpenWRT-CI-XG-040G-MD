@@ -84,6 +84,10 @@ UPDATE_PACKAGE "luci-app-lucky" "sirpdboy/luci-app-lucky" "main"
 UPDATE_PACKAGE "luci-app-tailscale-community" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale-community"
 UPDATE_PACKAGE "istore" "linkease/istore" "main" "pkg" "istore luci-app-store"
 UPDATE_PACKAGE "accesscontrol" "openwrt/luci-app-accesscontrol" "master" "" "luci-app-accesscontrol accesscontrol"
+# 统一共享 unishare
+UPDATE_PACKAGE "unishare" "sirpdboy/luci-app-unishare" "main" "" "luci-app-unishare unishare"
+# 带宽监控 wrtbwmon
+UPDATE_PACKAGE "wrtbwmon" "sirpdboy/luci-app-wrtbwmon" "main" "" "luci-app-wrtbwmon wrtbwmon"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
