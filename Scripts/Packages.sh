@@ -83,7 +83,7 @@ UPDATE_PACKAGE "luci-app-airoha-npu" "bingoguo93/luci-app-airoha-npu" "main"
 UPDATE_PACKAGE "luci-app-lucky" "sirpdboy/luci-app-lucky" "main"
 UPDATE_PACKAGE "luci-app-tailscale-community" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale-community"
 UPDATE_PACKAGE "luci-app-timecontrol" "sirpdboy/luci-app-timecontrol" "main" "" "luci-app-timecontrol"
-
+UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main" "" "luci-app-bandix"
 
 UPDATE_VERSION() {
 	local PKG_NAME=$1
